@@ -30,8 +30,8 @@ sed -i 's/192.168.6.1/192.168.1.5/g' package/base-files/files/bin/config_generat
 #
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/kenzok8/openwrt-packages
-svn co https://github.com/kenzok8/small
+# svn co https://github.com/kenzok8/openwrt-packages
+# svn co https://github.com/kenzok8/small
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
 # svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile ./feeds/packages/utils/runc/Makefile
