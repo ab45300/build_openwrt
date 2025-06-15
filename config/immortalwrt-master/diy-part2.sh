@@ -24,8 +24,8 @@ sed -i 's/192.168.6.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 #
 # Add luci-app-amlogic
 # svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
-svn co https://github.com/kenzok8/openwrt-packages
-svn co https://github.com/kenzok8/small
+# svn co https://github.com/kenzok8/openwrt-packages
+# svn co https://github.com/kenzok8/small
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
