@@ -16,7 +16,7 @@ on:
         type: choice
         options:
           - openwrt-main
-          - lede-master
+          - lede-23.05
           - immortalwrt-master
           - Lienol-master
       
