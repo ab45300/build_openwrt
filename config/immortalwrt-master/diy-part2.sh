@@ -31,3 +31,5 @@
 #
 # ------------------------------- Other ends -------------------------------
 
+git clone https://github.com/gdy666/luci-app-lucky.git package/lucky
+git clone https://github.com/imapproxy/luci-app-turboacc.git package/turboacc
